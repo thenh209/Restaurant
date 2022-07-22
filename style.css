@@ -5,137 +5,132 @@
 }
 body{
     background-color: gray;
-   
-
-
 }
 #heading-top{
     width:90vw;
     color: rgb(0, 0, 0);
     background-color:grey;
     text-align: center;
-   
 }
-
-
 #box-1{
     background-color:pink; 
     width:90vw;
     height:60vh;
-   
 }
-
 #titleName{
-    
     font-family: 'Stick No Bills', sans-serif;
     position: absolute;
     color: whitesmoke;
-    left: 850px;
-    top: 170px;
-   
-    
- 
-
-    
+    left: 650px;
+    top: 125px;
 } 
-
 #titleImage{
     width: 90vw;
     height: 60vh;
 }
-
-
 #box-2{
-  
     background-color:yellow;
     width:90vw;
     height:65vh ;
     /* margin-top: 10px;
     /* margin-bottom: 10px; this also used */
-    
     /* top left bottom right */
-  
-   
 }
-#favFood1{
+#Food1{
     text-align: center;
-   
-    
 }
-#favFoodImage1{
+#FoodImage1{
      width:30%;
      height: 35vh;
      border: 3px solid white;
      padding: 5px;  
      margin: 50px 450px;
-
-
-
 }
 #foodDescription{
     text-align: center;
     font-size: 1.1em;
 
 }
-
-
 #box-3{
    
     background-color:purple;
     width:90vw;
     height:60vh;
-    
-    
-    
-    
-  
-    
 }
-#favFood2{
+#Food2{
     text-align: center;
 
 }
-#favFoodImage2{
+#FoodImage2{
      width:30%;
      height: 35vh;
      border: 3px solid white;
      padding: 5px;
      margin: 50px 450px;
-
-     
-    
-
 }
 #foodDescription2{
     text-align: center;
     font-size: 1.1em;
-
 }
-
-
 #box-4{
    
     background-color:aqua;
     width:90vw;
     height:60vh ;
-  
 }
-#favFood3{
+#Food3{
     text-align: center;
 }
-
-#favFoodImage3{
+#FoodImage3{
     width:30%;
      height:35vh;
      border: 3px solid white;
      padding: 5px;
      margin: 50px 450px;
-    
-
 }
 #foodDescription3{
     text-align: center;
     font-size: 1.1em;
-
+}
+@media (max-width: 575.98px){
+    #titleName{
+        font-size: 1.5em;
+        font-family: 'Stick No Bills', sans-serif;
+        position: absolute;
+        color: whitesmoke;
+        left: 300px;
+        top: 130px;
+    } 
+    #FoodImage1{
+        width:30%;
+        height: 35vh;
+        border: 3px solid white;
+        padding: 5px;  
+        margin: 50px 200px;
+    }
+    #FoodImage2{
+        width:30%;
+        height: 35vh;
+        border: 3px solid white;
+        padding: 5px;
+        margin: 50px 200px;
+   }
+   #FoodImage3{
+    width:30%;
+     height:35vh;
+     border: 3px solid white;
+     padding: 5px;
+     margin: 50px 200px;
+   }
+    #heading-top{
+        width:50vw;
+        height: 7vh;
+        color: rgb(0, 0, 0);
+        background-color:grey;
+        text-align: center;
+        font-size: 0.7em;
+        padding-left: 150px;
+       
+    }
 }
 
